@@ -32,6 +32,27 @@
   gap: 1rem;
 }
 
+.flex{
+  display: flex;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.gap-1{
+  gap: 1rem;
+}
+
+.gap-1\.25{
+  gap: 1rem;
+}
+
+.gap-1\.5{
+  gap: 1rem;
+}
+
+
 @media (width >= 80em){
   :root{
     --px-lg: 2rem;
@@ -48,5 +69,13 @@
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
     gap: 1.25rem;
+  }
+  
+  .gap-1\.25{
+    gap: 1.25rem;
+  }
+
+  .gap-1\.5{
+    gap: 1.5rem;
   }
 }
