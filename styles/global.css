@@ -58,7 +58,7 @@ h1{
   line-height: 1.25;
   color: var(--text-color-primary);
   font-weight: var(--fw-bold);
-  font-size: var(--px-lg);
+  font-size: var(--heading-sm);
 }
 
 a{
@@ -72,6 +72,11 @@ a:hover{
 
 ul[role="list"]{
   list-style: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
 }
 
 @media (width >= 80em){
