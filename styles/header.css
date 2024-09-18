@@ -1,0 +1,73 @@
+header {
+
+
+  & .container {
+    flex-direction: column;
+    padding-inline: 1rem;
+    gap: 2rem;
+
+  }
+
+  & #profile{
+    gap: 1rem;
+  }
+
+  & #profile > img {
+    align-self: self-start;
+  }
+}
+
+#profile h1 {
+  padding-bottom: 0.5rem;
+}
+
+#profile p {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-base);
+  line-height: 170%;
+
+}
+
+#profile > div {
+  
+}
+
+#info {
+  width: 17.5rem;
+  align-self: self-start;
+
+
+  & li {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}
+
+#info li {}
+
+@media (width >= 80em) {
+
+  header{
+
+
+    & #profile{
+      flex-direction: row;
+      gap: 2rem;
+    }
+
+    & #profile > div{
+      max-width: 384px;
+    }
+
+    & .container{
+      flex-direction: row;
+    padding-inline: 0;
+    }
+
+    & #info{
+      align-self: center;
+    }
+
+  }  
+}
