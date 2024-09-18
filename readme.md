@@ -5,4 +5,4 @@ Neste exemplo é usado as técnicas de CSS Flexbox e Media queries para montar e
 
 ## Perfil de viagens
 
-<img src="assets/Capa.jpgCapa.jpg" alt="Imagem de capa">
+<img src="assets/Capa.jpg" alt="Imagem de capa">
