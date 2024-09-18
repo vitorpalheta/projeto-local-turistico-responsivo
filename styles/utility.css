@@ -45,6 +45,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.space-between{
+  justify-content: space-between;
+}
+
 .items-center{
   align-items: center;
 }

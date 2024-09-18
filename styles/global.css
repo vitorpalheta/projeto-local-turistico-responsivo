@@ -80,6 +80,11 @@ img{
   display: block;
 }
 
+
+.surface-color{
+  background-color: var(--surface-color);
+}
+
 @media (width >= 80em){
   :root{
     --py-sm: 1.25rem;
@@ -90,8 +95,4 @@ img{
   h1{
     font-size: var(--heading);
   }
-}
-
-.surface-color{
-  background-color: var(--surface-color);
 }

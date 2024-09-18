@@ -1,8 +1,4 @@
 nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
   line-height: 0;
 
   
@@ -10,10 +6,7 @@ nav{
 
 nav ul{
   list-style: none;
-  display: flex;
-  align-items: center;
   gap: 1.25rem;
-
   padding-block: 0.5rem;
 }
 
