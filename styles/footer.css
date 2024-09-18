@@ -8,7 +8,7 @@ footer{
     font-weight: var(--fw-bse);
     line-height: 150%;
   }
-  & footer div:first-child{
+  & div:first-child{
     margin-bottom: 1rem;
   }
 }
